@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Shadowclicker">
+    <output-path>$PROJECT_DIR$/out/artifacts/Shadowclicker</output-path>
+    <root id="archive" name="Shadowclicker.jar" />
+  </artifact>
+</component>
