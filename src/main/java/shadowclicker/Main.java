@@ -20,28 +20,24 @@ public class Main{
 
             stateInfo = myObj.nextLine();
 
-            System.out.println(stateInfo);
 
-            if(stateInfo.contains("fallen")){
+            if(stateInfo.contains("f")){
 
-                System.out.println("werkt");
                 int[] pos = getMousePos(stateInfo);
                 Util.mouseClick(pos[0], pos[1]);
 
-                Thread.sleep(4000);
+                Thread.sleep(2000);
 
-            } else if(stateInfo.contains("caught")) {
-                System.out.println("werkt");
+            } else if(stateInfo.contains("c")) {
                 int[] pos = getMousePos(stateInfo);
                 Util.mouseClick(pos[0], pos[1]);
 
-                Thread.sleep(4000);
-            } else if(stateInfo.contains("dis")){
-                System.out.println("werkt");
+                Thread.sleep(2000);
+            } else if(stateInfo.contains("d")){
                 int[] pos = getMousePos(stateInfo);
                 Util.mouseClick(pos[0], pos[1]);
 
-                Thread.sleep(4000);
+                Thread.sleep(2000);
             }
 
         }
