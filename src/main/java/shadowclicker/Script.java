@@ -4,6 +4,7 @@ import java.awt.*;
 
 public abstract class Script {
     private Methods methods = new Methods();
+    private ScannerManager sm;
 
     public Methods getMethods(){
         return methods;
@@ -12,5 +13,13 @@ public abstract class Script {
 
     public void sleep(int milSec) throws InterruptedException {
         Thread.sleep(milSec);
+    }
+
+    public void setScannerManager(ScannerManager sm) {
+        this.sm = sm;
+    }
+
+    public ScannerManager getSm() {
+        return sm;
     }
 }

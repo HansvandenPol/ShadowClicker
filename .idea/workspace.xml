@@ -9,7 +9,37 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d7c089-1a0d-4912-aafb-11c29cab7b8b" name="Default Changelist" comment="" />
+    <list default="true" id="9e43999d-42f2-4ebb-b62a-0c430378297b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seagullscript/Looper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/ScannerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/WoodCutterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accountswitcher/LoginTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shadowclicker/Methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/WoodCutterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +87,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.runelite/repository2/runelite-api-1.6.15.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,6 +102,19 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shadowclicker.Main" />
+      <module name="ShadowClicker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shadowclicker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="accountswitcher.Main" />
       <module name="ShadowClicker" />
       <extension name="coverage">
@@ -83,43 +127,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jnautils.WindowLocator" />
-      <module name="ShadowClicker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jnautils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RobotTyperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginManagerTest.shouldThrowRunTimeWhenNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShadowClicker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTyperTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RobotTyperTest.shouldLoginWithGoodCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShadowClicker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTyperTest" />
-      <option name="METHOD_NAME" value="shouldLoginWithGoodCredentials" />
+      <option name="MAIN_CLASS_NAME" value="LoginManagerTest" />
+      <option name="METHOD_NAME" value="shouldThrowRunTimeWhenNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotTyperTest.typeAString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTimerTest.shouldCreateCorrectEndTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShadowClicker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTyperTest" />
-      <option name="METHOD_NAME" value="typeAString" />
+      <option name="MAIN_CLASS_NAME" value="LoginTimerTest" />
+      <option name="METHOD_NAME" value="shouldCreateCorrectEndTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTimerTest.shouldLogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShadowClicker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTimerTest" />
+      <option name="METHOD_NAME" value="shouldLogoutTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.RobotTyperTest.shouldLoginWithGoodCredentials" />
-        <item itemvalue="JUnit.RobotTyperTest.typeAString" />
-        <item itemvalue="JUnit.RobotTyperTest" />
-        <item itemvalue="Application.WindowLocator" />
+        <item itemvalue="JUnit.LoginTimerTest.shouldCreateCorrectEndTime" />
+        <item itemvalue="JUnit.LoginManagerTest.shouldThrowRunTimeWhenNotFound" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LoginTimerTest.shouldLogoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +172,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a768c268-f791-4d28-b0b5-385aefb83a23" name="Default Changelist" comment="" />
+      <changelist id="9e43999d-42f2-4ebb-b62a-0c430378297b" name="Default Changelist" comment="" />
       <created>1589317270084</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -149,40 +181,44 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="141" key="#Project_Structure" timestamp="1589795518232">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1589976192384">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="141" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589795518232" />
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589400818600" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1589836742703">
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589976192384" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1590081555094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589799305173" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589836742703" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589400941457">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590081555094" />
+    <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589975742563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589400941457" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1589925793735">
+    <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589975742563" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1590006566184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590006566184" />
+    <state width="914" height="217" key="GridCell.Tab.0.bottom" timestamp="1590082814818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1589925793735">
+    <state width="914" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
+    <state width="914" height="217" key="GridCell.Tab.0.center" timestamp="1590082814818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1589925793735">
+    <state width="914" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
+    <state width="914" height="217" key="GridCell.Tab.0.left" timestamp="1590082814818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589810511822" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1589925793735">
+    <state width="914" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
+    <state width="914" height="217" key="GridCell.Tab.0.right" timestamp="1590082814818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
+    <state width="914" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1589839723850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,15 +235,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589839723850" />
-    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1589317529658">
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1589982445168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589317529658" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1589835257943">
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589982445168" />
+    <state x="80" y="178" key="Maven.ArtifactSearchDialog" timestamp="1589976320770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="80" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589976320770" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1590011918953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="74" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589795628001" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589835257943" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590011918953" />
     <state x="209" y="108" key="new project wizard" timestamp="1589794605665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,5 +257,9 @@
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589795597882" />
     <state x="531" y="236" width="840" height="855" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589925637040" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589976734411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589976734411" />
   </component>
 </project>

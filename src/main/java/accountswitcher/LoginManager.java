@@ -1,18 +1,15 @@
 package accountswitcher;
 
-import jnautils.User32;
-import jnautils.Win32WindowUtils;
 import jnautils.WindowLocator;
 import org.json.simple.JSONObject;
 import shadowclicker.Util;
 
 import java.awt.*;
-import java.awt.event.KeyEvent;
 
 public class LoginManager {
     private JSONObject account;
-    private LoginTimer timer;
-    private Account accountManager = new Account();
+    private LoginTimer timer = new LoginTimer();
+    private AccountLoader accountManager = new AccountLoader();
 
     public void login(JSONObject account, int durationInMinutes, int offsetInMinutes){
         this.account = account;
@@ -25,13 +22,26 @@ public class LoginManager {
 
     public void check() throws InterruptedException {
         if(account == null) {
-            accountManager.readJson();
-            account = accountManager.getFirstCanidate();
-            performLogin();
-            login(account, 120, 5);
+            account = getNextAccount();
+
+            if(account != null) {
+                performLogin();
+                login(account, 1, 0);
+            }
+
         } else if(shouldLogout()) {
             switchAccount();
         }
+    }
+
+    public JSONObject getNextAccount(){
+        accountManager.readJson();
+        account = accountManager.getFirstCanidate();
+
+        if(account == null) {
+            throw new RuntimeException("No Suitable Candidate Found");
+        }
+        return account;
     }
 
     public JSONObject getAccount(){
@@ -40,8 +50,13 @@ public class LoginManager {
 
     public void switchAccount() throws InterruptedException {
         logout();
-        this.account = null;
-        Thread.sleep((int)((Math.random() * 20000)+120000));
+        if(account != null){
+            accountManager.setPlayed(account, true);
+            this.account = null;
+        }
+       // Thread.sleep((int)((Math.random() * 20000)+120000));
+
+        Thread.sleep((int)((Math.random() * 10)+2000));
     }
 
     public void performLogin() throws InterruptedException {
@@ -78,10 +93,28 @@ public class LoginManager {
         int y =  bounds.y + 508 + offsetY;
         Util.mouseClick(x,y);
 
-        Thread.sleep((int)((Math.random() * 200)+400));
+
+        // Simple sleep to make sure account isn't in combat anymore
+        Thread.sleep((int)((Math.random() * 200)+30000));
 
         Util.mouseClick(639+bounds.x+offsetX, 455+bounds.y+offsetY);
 
         Thread.sleep((int)((Math.random() * 200)+400));
+    }
+
+    public LoginTimer getTimer() {
+        return timer;
+    }
+
+    public void setAccount(JSONObject account) {
+        this.account = account;
+    }
+
+    public void setAccountManager(AccountLoader accountManager) {
+        this.accountManager = accountManager;
+    }
+
+    public boolean shouldTrigger() {
+        return account == null || shouldLogout();
     }
 }

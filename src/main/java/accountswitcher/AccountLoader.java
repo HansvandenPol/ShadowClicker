@@ -11,17 +11,17 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class Account {
+public class AccountLoader {
     private final String DEFAULT_PATH = "C:\\Users\\hansv\\IdeaProjects\\ShadowClicker\\src\\main\\java\\accountswitcher\\accounts.JSON";
     private String pathToAccs = DEFAULT_PATH;
     private JSONParser jsonParser;
     private JSONObject jsonFile;
     private LoginTimer loginTimer;
 
-    public Account() {
+    public AccountLoader() {
     }
 
-    public Account(String pathToAccs) {
+    public AccountLoader(String pathToAccs) {
         this.pathToAccs = pathToAccs;
     }
 
@@ -68,5 +68,9 @@ public class Account {
             }
         }
         return null;
+    }
+
+    public JSONObject getJsonFile(){
+        return jsonFile;
     }
 }

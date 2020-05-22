@@ -1,8 +1,5 @@
-accountswitcher\Main.class
 shadowclicker\MyGDI32.class
-shadowclicker\WoodCutterTest.class
 shadowclicker\Main.class
-accountswitcher\Account.class
 shadowclicker\PixelSearcher.class
 shadowclicker\Script.class
 shadowclicker\Util.class
@@ -11,5 +8,7 @@ jnautils\User32.class
 accountswitcher\LoginManager.class
 accountswitcher\RobotTyper.class
 shadowclicker\Methods.class
+seagullscript\Looper.class
+shadowclicker\ScannerManager.class
 jnautils\Win32WindowUtils.class
 jnautils\WindowLocator.class
