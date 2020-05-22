@@ -56,7 +56,7 @@ public class Util {
 
     public static void mouseClick(int xPos, int yPos) throws InterruptedException {
         mouse.move(xPos, yPos);
-        robot.delay((int)(Math.random() * 10) + 80);
+        robot.delay((int)(Math.random() * 10) + 25);
         click();
     }
 
