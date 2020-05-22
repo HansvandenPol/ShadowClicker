@@ -10,35 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e43999d-42f2-4ebb-b62a-0c430378297b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seagullscript/Looper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/ScannerManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/WoodCutterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accountswitcher/LoginTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shadowclicker/Methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/WoodCutterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seagullscript/Looper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seagullscript/Looper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/seagullscript/Looper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seagullscript/Looper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,26 +174,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590006566184" />
-    <state width="914" height="217" key="GridCell.Tab.0.bottom" timestamp="1590082814818">
+    <state width="914" height="865" key="GridCell.Tab.0.bottom" timestamp="1590152714763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="914" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
-    <state width="914" height="217" key="GridCell.Tab.0.center" timestamp="1590082814818">
+    <state width="914" height="865" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590152714763" />
+    <state width="914" height="865" key="GridCell.Tab.0.center" timestamp="1590152714762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="914" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
-    <state width="914" height="217" key="GridCell.Tab.0.left" timestamp="1590082814818">
+    <state width="914" height="865" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590152714762" />
+    <state width="914" height="865" key="GridCell.Tab.0.left" timestamp="1590152714762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589810511822" />
-    <state width="914" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
-    <state width="914" height="217" key="GridCell.Tab.0.right" timestamp="1590082814818">
+    <state width="914" height="865" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590152714762" />
+    <state width="914" height="865" key="GridCell.Tab.0.right" timestamp="1590152714763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="722" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="914" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590082814818" />
+    <state width="914" height="865" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590152714763" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1589839723850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

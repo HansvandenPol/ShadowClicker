@@ -8,16 +8,17 @@ import java.util.Scanner;
 
 public class Looper extends Script {
     ScannerManager sm;
-    Scanner scanner;
+    Scanner scanner = new Scanner(System.in);;
 
     @Override
     public void onLoop() throws InterruptedException {
         sm = getSm();
-        scanner = sm.getScanner();
+        //scanner = sm.getScanner();
         String stateInfo = "";
-        if(scanner != null){
+        //scanner = new Scanner(System.in);
+        //if(scanner.hasNextLine()){
             stateInfo = scanner.nextLine();
-        }
+      //  }
         if (stateInfo.contains("click")) {
 
             int[] pos = getMousePos(stateInfo);
