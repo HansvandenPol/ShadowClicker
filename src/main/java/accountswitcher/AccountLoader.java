@@ -9,6 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.Iterator;
 
 public class AccountLoader {
@@ -72,5 +73,29 @@ public class AccountLoader {
 
     public JSONObject getJsonFile(){
         return jsonFile;
+    }
+
+    public void updatePlayDate(JSONObject account) {
+        account.put("last_played", LocalDate.now().toString());
+        updateJson(jsonFile);
+    }
+
+    public JSONArray getAccounts(){
+        if(jsonFile == null){
+            throw new RuntimeException("JSON file doesn't exist");
+        }
+        return (JSONArray) jsonFile.get("accounts");
+    }
+
+    public void resetPlayedStatus() {
+        readJson();
+        JSONArray accounts = getAccounts();
+        for(JSONObject account : (Iterable<JSONObject>) accounts) {
+            LocalDate date = LocalDate.parse((String)account.get("last_played"));
+            if(date.isBefore(LocalDate.now())) {
+                account.put("played",false);
+            }
+        }
+        updateJson(jsonFile);
     }
 }

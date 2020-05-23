@@ -52,9 +52,10 @@ public class LoginManager {
         logout();
         if(account != null){
             accountManager.setPlayed(account, true);
+            accountManager.updatePlayDate(account);
             this.account = null;
         }
-       // Thread.sleep((int)((Math.random() * 20000)+120000));
+        //Thread.sleep((int)((Math.random() * 20000)+120000));
 
         Thread.sleep((int)((Math.random() * 10)+2000));
     }

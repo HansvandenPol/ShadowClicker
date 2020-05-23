@@ -4,21 +4,20 @@ import shadowclicker.ScannerManager;
 import shadowclicker.Script;
 import shadowclicker.Util;
 
+import java.io.BufferedReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Looper extends Script {
-    ScannerManager sm;
-    Scanner scanner = new Scanner(System.in);;
+    BufferedReader scanner = ScannerManager.getScanner();
 
     @Override
-    public void onLoop() throws InterruptedException {
-        sm = getSm();
-        //scanner = sm.getScanner();
+    public void onLoop() throws InterruptedException, IOException {
         String stateInfo = "";
         //scanner = new Scanner(System.in);
-        //if(scanner.hasNextLine()){
-            stateInfo = scanner.nextLine();
-      //  }
+        if(scanner.ready()){
+            stateInfo = scanner.readLine();
+        }
         if (stateInfo.contains("click")) {
 
             int[] pos = getMousePos(stateInfo);

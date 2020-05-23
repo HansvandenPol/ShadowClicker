@@ -1,22 +1,20 @@
 package shadowclicker;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class ScannerManager {
-    private Scanner scanner;
+    private static BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
 
-    public ScannerManager(){
-
-    }
-    public void close(){
-        this.scanner.close();
-    }
-
-    public  void open(){
-        this.scanner = new Scanner(System.in);
-    }
-
-    public Scanner getScanner(){
+    public static BufferedReader getScanner(){
         return scanner;
+    }
+
+    public static void clear() throws IOException {
+        while(scanner.ready()) {
+            scanner.readLine();
+        }
     }
 }

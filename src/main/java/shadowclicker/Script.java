@@ -1,6 +1,7 @@
 package shadowclicker;
 
 import java.awt.*;
+import java.io.IOException;
 
 public abstract class Script {
     private Methods methods = new Methods();
@@ -9,7 +10,7 @@ public abstract class Script {
     public Methods getMethods(){
         return methods;
     }
-    public abstract void onLoop() throws InterruptedException;
+    public abstract void onLoop() throws InterruptedException, IOException;
 
     public void sleep(int milSec) throws InterruptedException {
         Thread.sleep(milSec);
