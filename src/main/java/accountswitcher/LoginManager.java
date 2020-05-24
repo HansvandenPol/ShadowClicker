@@ -26,7 +26,7 @@ public class LoginManager {
 
             if(account != null) {
                 performLogin();
-                login(account, 1, 0);
+                login(account, 30, 5);
             }
 
         } else if(shouldLogout()) {
@@ -55,9 +55,9 @@ public class LoginManager {
             accountManager.updatePlayDate(account);
             this.account = null;
         }
-        //Thread.sleep((int)((Math.random() * 20000)+120000));
+        Thread.sleep((int)((Math.random() * 20000)+120000));
 
-        Thread.sleep((int)((Math.random() * 10)+2000));
+       // Thread.sleep((int)((Math.random() * 10)+2000));
     }
 
     public void performLogin() throws InterruptedException {
@@ -88,7 +88,7 @@ public class LoginManager {
     public void logout() throws InterruptedException {
         Rectangle bounds = WindowLocator.getRect("RuneLite");
         int offsetX = (int)((Math.random() * 10)-5);
-        int offsetY = (int)((Math.random() * 10)-5);
+        int offsetY = (int)((Math.random() * 6)-5);
 
         int x = bounds.x + 646 + offsetX;
         int y =  bounds.y + 508 + offsetY;

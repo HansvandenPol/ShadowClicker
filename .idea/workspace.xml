@@ -9,28 +9,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e43999d-42f2-4ebb-b62a-0c430378297b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/Gui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
+    <list default="true" id="1c62b483-66f9-43dc-a1fb-e393242bca25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/RobotTyper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/RobotTyper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seagullscript/Looper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seagullscript/Looper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/ScannerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/ScannerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ShadowClicker-1.0-Seagull.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ShadowClicker-1.0-Seagull.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ShadowClicker.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/AccountLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accountswitcher/AccountLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/seagullscript/Looper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seagullscript/Looper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/ScannerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shadowclicker/ScannerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Script.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shadowclicker/Script.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/AccountLoaderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AccountLoaderTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginManagerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginManagerTest.txt" afterDir="false" />
@@ -58,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fastFeature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Gui" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.LoginTimerTest.shouldCreateCorrectEndTime" />
         <item itemvalue="JUnit.LoginManagerTest.shouldThrowRunTimeWhenNotFound" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Gui" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +170,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e43999d-42f2-4ebb-b62a-0c430378297b" name="Default Changelist" comment="" />
+      <changelist id="1c62b483-66f9-43dc-a1fb-e393242bca25" name="Default Changelist" comment="" />
       <created>1589317270084</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589317270084</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1590168474214">
