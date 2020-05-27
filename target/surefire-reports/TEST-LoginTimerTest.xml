@@ -64,6 +64,6 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="LoginTimerTest" name="shouldLogoutTest" time="0"/>
-  <testcase classname="LoginTimerTest" name="shouldStartTimerWhenLoggedIn" time="0"/>
   <testcase classname="LoginTimerTest" name="shouldCreateCorrectEndTime" time="0"/>
+  <testcase classname="LoginTimerTest" name="shouldStartTimerWhenLoggedIn" time="0"/>
 </testsuite>
