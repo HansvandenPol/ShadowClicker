@@ -4,7 +4,7 @@ import java.awt.*;
 import static java.awt.event.KeyEvent.*;
 
 public class RobotTyper {
-    private static int delay = 50;
+    private static int delay = 80;
     private static Robot robot = null;
 
     static {

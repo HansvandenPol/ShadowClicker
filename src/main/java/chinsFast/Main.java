@@ -15,7 +15,7 @@ public class Main {
         Util.testColor(110, 176);
         Scanner myObj = new Scanner(System.in);  // Create a Scanner objec
         Util.setMouseFactory(FactoryTemplates.createFastGamerMotionFactory());
-        
+
         while(true){
             String stateInfo = "";
 

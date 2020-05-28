@@ -31,7 +31,7 @@ public class WindowLocator {
         Rectangle rect;
         try {
             rect = WindowLocator.getRect(windowName);
-            Util.mouseClick(rect.x, rect.y);
+            Util.mouseClick(rect.x, rect.y, false);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

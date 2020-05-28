@@ -11,7 +11,7 @@ import java.awt.event.KeyEvent;
 
 public class Methods {
     private  Robot robot;
-    private  MouseMotionFactory mouse = FactoryTemplates.createAverageComputerUserMotionFactory();
+    private  MouseMotionFactory mouse = FactoryTemplates.createFastGamerMotionFactory();
 
     public Methods() {
         try{
@@ -21,22 +21,17 @@ public class Methods {
         }
     }
 
-    public int[] pixelSearch(int startX, int startY, int endX, int endY, int r, int g, int b, int speed) {
+    public boolean pixelSearch(int startX, int startY, int endX, int endY, int r, int g, int b, int speed) {
         Color theColor = new Color(r,g,b);
-        int[] coords = new int[2];
-
-
         for(int j = startY; j < endY; j+=speed) {
             for(int i = startX; i < endX; i+=speed) {
                 if(robot.getPixelColor(i , j).equals(theColor)){
-                    coords[0] = i;
-                    coords[1] = j;
-                    return coords;
+                    return true;
                 }
             }
         }
 
-        return coords;
+        return false;
     }
 
     public boolean isColorAt(int xPos, int yPos, int r, int g, int b) {
@@ -53,14 +48,15 @@ public class Methods {
 
     public void click(){
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-        robot.delay(50);
+
+        robot.delay((int)(Math.random() * 50) + 50);
 
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
     }
 
     public void mouseClick(int xPos, int yPos) throws InterruptedException {
         mouse.move(xPos, yPos);
-        robot.delay(200);
+        robot.delay((int)(Math.random() * 20) + 80);
         click();
     }
 
@@ -76,6 +72,10 @@ public class Methods {
 
         click();
         robot.keyRelease(KeyEvent.VK_SHIFT);
+    }
+
+    public Robot getRobot(){
+        return robot;
     }
 
     public boolean isInvFull(){
