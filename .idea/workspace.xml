@@ -9,106 +9,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c62b483-66f9-43dc-a1fb-e393242bca25" name="Default Changelist" comment="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chinbot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/Controller2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/DashFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/highscores/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seagullscript/Looper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/ScannerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DashFX.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/eruro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fullpackstyling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8-pause-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8-play-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8-stop-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8_Bill_50px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8_Block_50px_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8_Broccoli_64px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8_Car_52px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8_Play_48px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8_Play_Button_50px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8_Shopping_Cart_50px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AccountLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BADcanidate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTimerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MoreCandidates.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OneCanidate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Updateable.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ShadowClicker-1.0-Seagull.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DashFX.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/accountswitcher/AccountLoader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/eruro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fullpackstyling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8-pause-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8-play-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8-stop-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8_Bill_50px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8_Block_50px_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8_Broccoli_64px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8_Car_52px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8_Play_48px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8_Play_Button_50px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/icons8_Shopping_Cart_50px_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/AccountLoaderTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/LoginManagerTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTimerTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AccountLoaderTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginManagerTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTimerTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/AccountLoaderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LoginManagerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/LoginTimerTest.class" afterDir="false" />
+    <list default="true" id="1c62b483-66f9-43dc-a1fb-e393242bca25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/ShadowClicker.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/RobotTyper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/RobotTyper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chinsFast/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chinsFast/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jnautils/WindowLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jnautils/WindowLocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Script.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/WoodCutterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ShadowClicker-1.0-FASTER.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ShadowClicker-1.0-MASTER.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accountswitcher/LoginTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/RobotTyper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Methods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Script.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/WoodCutterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/Gui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="birdFeature" />
+        <entry key="$PROJECT_DIR$" value="fastFeature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -258,6 +164,21 @@
       <option name="presentableId" value="Default" />
       <updated>1589317270084</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
+      <created>1590695028294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590695028294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
+      <created>1590695072152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590695072152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -286,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590694910410" />
-    <state x="560" y="0" key="CommitChangelistDialog2" timestamp="1590695056955">
+    <state x="560" y="0" key="CommitChangelistDialog2" timestamp="1590695112075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590695056955" />
+    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590695112075" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1590182906927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
