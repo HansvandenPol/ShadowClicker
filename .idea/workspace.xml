@@ -286,10 +286,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590694910410" />
-    <state x="560" y="0" key="CommitChangelistDialog2" timestamp="1590694977849">
+    <state x="560" y="0" key="CommitChangelistDialog2" timestamp="1590695056955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590694977849" />
+    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590695056955" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1590182906927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,6 +347,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1590158026082" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1590695031164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590695031164" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1590187022299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,10 +359,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="607" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590168101849" />
-    <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590693926799">
+    <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590695049679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590693926799" />
+    <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590695049679" />
     <state x="261" y="136" key="new project wizard" timestamp="1590168073887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
