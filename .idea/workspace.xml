@@ -10,23 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c62b483-66f9-43dc-a1fb-e393242bca25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/highscores/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ShadowClicker-1.0-Seagull.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ShadowClicker-1.0-Seagull.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AccountLoaderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AccountLoaderTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginManagerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginManagerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTimerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTimerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AccountLoaderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AccountLoaderTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginManagerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginManagerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTimerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTimerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/LoginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fastFeature" />
+        <entry key="$PROJECT_DIR$" value="birdFeature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTimerTest.shouldCreateCorrectEndTime" />
+        <item itemvalue="JUnit.LoginManagerTest.shouldThrowRunTimeWhenNotFound" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="JUnit.LoginTimerTest.shouldCreateCorrectEndTime" />
-        <item itemvalue="JUnit.LoginManagerTest.shouldThrowRunTimeWhenNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -190,11 +175,11 @@
     </state>
     <state x="442" y="141" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589795518232" />
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590168474214" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1590167927202">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1590693278140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589799305173" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590167927202" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590693278140" />
     <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589975742563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

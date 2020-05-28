@@ -19,10 +19,12 @@ public class Main{
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws InterruptedException, IOException {
-        script = new Looper();
+        script = new Looper();// From GUI soon...
         ScannerManager sm = new ScannerManager();
         script.setScannerManager(sm);
         accountLoader.resetPlayedStatus();
+        loginManager.setActive(false); // From GUI soon...
+
         while(running){
             if(loginManager.shouldLogout()) {
                 loginManager.check();

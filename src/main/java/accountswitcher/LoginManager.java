@@ -10,6 +10,7 @@ public class LoginManager {
     private JSONObject account;
     private LoginTimer timer = new LoginTimer();
     private AccountLoader accountManager = new AccountLoader();
+    private boolean active = true;
 
     public void login(JSONObject account, int durationInMinutes, int offsetInMinutes){
         this.account = account;
@@ -17,7 +18,7 @@ public class LoginManager {
     }
 
     public boolean shouldLogout(){
-        return this.timer.shouldLogOut();
+        return this.timer.shouldLogOut() && active;
     }
 
     public void check() throws InterruptedException {
@@ -117,5 +118,13 @@ public class LoginManager {
 
     public boolean shouldTrigger() {
         return account == null || shouldLogout();
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
     }
 }
