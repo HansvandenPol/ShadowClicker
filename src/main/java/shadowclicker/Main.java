@@ -20,41 +20,42 @@ public class Main{
 
             stateInfo = myObj.nextLine();
 
-            System.out.println(stateInfo);
+            if(stateInfo.contains("f")){
 
-            if(stateInfo.contains("fallen")){
-
-                System.out.println("werkt");
                 int[] pos = getMousePos(stateInfo);
                 Util.mouseClick(pos[0], pos[1]);
 
-                Thread.sleep(4000);
+                Thread.sleep((int)(Math.random()*200)+4000);
 
-            } else if(stateInfo.contains("caught")) {
-                System.out.println("werkt");
+            } else if(stateInfo.contains("c")) {
                 int[] pos = getMousePos(stateInfo);
                 Util.mouseClick(pos[0], pos[1]);
 
-                Thread.sleep(4000);
-            } else if(stateInfo.contains("dis")){
-                System.out.println("werkt");
+                Thread.sleep((int)(Math.random()*200)+4000);
+
+                Util.mouseClick(pos[0], pos[1]);
+
+                Thread.sleep((int)(Math.random()*200)+4000);
+
+                Util.mouseClick((int)(Math.random()*10)+1696-5, (int)(Math.random()*10)+252-5);
+                Thread.sleep((int)(Math.random()*200)+4000);
+
+                Util.dropBirdStuff((int)(Math.random()*10)+1734-5, (int)(Math.random()*10)+257-5, (int)(Math.random()*10)+1779-5, (int)(Math.random()*10)+257-5);
+                Thread.sleep((int)(Math.random()*200)+2000);
+            } else if(stateInfo.contains("d")){
                 int[] pos = getMousePos(stateInfo);
                 Util.mouseClick(pos[0], pos[1]);
 
-                Thread.sleep(4000);
+                Thread.sleep((int)(Math.random()*200)+4000);
+
+                Util.mouseClick(pos[0], pos[1]);
+                Thread.sleep((int)(Math.random()*200)+4000);
+
+                Util.mouseClick((int)(Math.random()*10)+1696-5, (int)(Math.random()*10)+252-5);
+                Thread.sleep((int)(Math.random()*200)+4000);
             }
 
         }
-
-
-       // gdiTest();s
-        //robotTest();
-
-        //Script loadedScript = new WoodCutterTest();
-
-//        while(running)  {
-//            loadedScript.onLoop();
-//        }
     }
 
     public static int[] getMousePos(String state) {

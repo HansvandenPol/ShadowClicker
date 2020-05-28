@@ -15,7 +15,7 @@ public class Util {
     static {
         try {
             robot = new Robot();
-            mouse = FactoryTemplates.createFastGamerMotionFactory();
+            mouse = FactoryTemplates.createAverageComputerUserMotionFactory();
         } catch (AWTException e) {
             e.printStackTrace();
         }
@@ -71,6 +71,14 @@ public class Util {
         robot.delay(200);
 
         click();
+        robot.keyRelease(KeyEvent.VK_SHIFT);
+    }
+
+    public static void dropBirdStuff(int x, int y, int x2, int y2) throws InterruptedException {
+        robot.keyPress(KeyEvent.VK_SHIFT);
+        robot.delay((int) (Math.random()*20) + 50);
+        mouseClick(x, y);
+        mouseClick(x2,y2);
         robot.keyRelease(KeyEvent.VK_SHIFT);
     }
 
