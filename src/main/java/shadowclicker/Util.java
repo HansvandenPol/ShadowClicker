@@ -15,7 +15,7 @@ public class Util {
     static {
         try {
             robot = new Robot();
-            mouse = FactoryTemplates.createAverageComputerUserMotionFactory();
+            mouse = FactoryTemplates.createFastGamerMotionFactory();
         } catch (AWTException e) {
             e.printStackTrace();
         }

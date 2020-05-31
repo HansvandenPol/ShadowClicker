@@ -1,14 +1,14 @@
-package shadowclicker;
+package birdhuntersensor;
 
-import com.github.joonasvali.naturalmouse.api.MouseMotionFactory;
-import com.github.joonasvali.naturalmouse.util.FactoryTemplates;
 import com.sun.jna.platform.win32.User32;
 import com.sun.jna.platform.win32.WinDef;
+import shadowclicker.MyGDI32;
+import shadowclicker.Util;
 
 import java.awt.*;
 import java.util.Scanner;
 
-public class Main{
+public class Main {
     public static void main(String[] args)  throws InterruptedException {
         boolean running = true;
         Util.testColor(110, 176);

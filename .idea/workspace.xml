@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="accountSwitchFeature" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.RobotTyperTest.shouldLoginWithGoodCredentials" />
         <item itemvalue="JUnit.RobotTyperTest.typeAString" />
+        <item itemvalue="JUnit.RobotTyperTest.shouldLoginWithGoodCredentials" />
         <item itemvalue="JUnit.RobotTyperTest" />
         <item itemvalue="Application.WindowLocator" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
