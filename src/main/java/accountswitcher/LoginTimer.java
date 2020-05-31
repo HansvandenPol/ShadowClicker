@@ -5,17 +5,38 @@ import org.json.simple.JSONObject;
 public class LoginTimer {
     private long startTime;
     private long endTime;
+    private double offset;
 
     public void startTimerFor(int durationInMinutes, int offsetInMinutes){
-        double randomOffset = (Math.random() * offsetInMinutes) - (offsetInMinutes/2);
-        System.out.println(randomOffset);
+        double minus = ((double)offsetInMinutes/2);
+        double randomNumber = Math.random() * offsetInMinutes;
+
+        offset = randomNumber - minus;
         startTime = System.nanoTime();
-        System.out.println(startTime);
-        endTime = (long) (startTime + ((durationInMinutes + randomOffset) * 60) * 1_000_000_000);
-        System.out.println(endTime);
+        endTime = (long) (startTime + ((durationInMinutes + offset) * 60) * 1_000_000_000);
     }
 
     public boolean shouldLogOut() {
         return System.nanoTime() >= endTime;
+    }
+
+    public long getStartTime(){
+        return startTime;
+    }
+
+    public long getEndTime() {
+        return endTime;
+    }
+
+    public double getOffset() {
+        return offset;
+    }
+
+    public void setStartTime(long startTime) {
+        this.startTime = startTime;
+    }
+
+    public void setEndTime(long endTime) {
+        this.endTime = endTime;
     }
 }
