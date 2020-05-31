@@ -27,7 +27,7 @@ public class LoginManager {
 
             if(account != null) {
                 performLogin();
-                login(account, 30, 5);
+                login(account, 300, 5);
             }
 
         } else if(shouldLogout()) {

@@ -2,7 +2,7 @@ package shadowclicker;
 
 import accountswitcher.AccountLoader;
 import accountswitcher.LoginManager;
-import seagullscript.Looper;
+import birdhuntersensor.Looper;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class Main{
         ScannerManager sm = new ScannerManager();
         script.setScannerManager(sm);
         accountLoader.resetPlayedStatus();
-        loginManager.setActive(false); // From GUI soon...
+        loginManager.setActive(true); // From GUI soon...
 
         while(running){
             if(loginManager.shouldLogout()) {

@@ -87,8 +87,8 @@ public class Util {
     public static void dropBirdStuff(int x, int y, int x2, int y2) throws InterruptedException {
         robot.keyPress(KeyEvent.VK_SHIFT);
         robot.delay((int) (Math.random()*20) + 50);
-        mouseClick(x, y);
-        mouseClick(x2,y2);
+        mouseClick(x, y, false);
+        mouseClick(x2,y2, false);
         robot.keyRelease(KeyEvent.VK_SHIFT);
     }
 

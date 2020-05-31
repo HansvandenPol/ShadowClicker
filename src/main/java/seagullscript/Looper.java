@@ -1,5 +1,6 @@
 package seagullscript;
 
+import com.github.joonasvali.naturalmouse.util.FactoryTemplates;
 import shadowclicker.ScannerManager;
 import shadowclicker.Script;
 import shadowclicker.Util;
@@ -10,6 +11,10 @@ import java.util.Scanner;
 
 public class Looper extends Script {
     BufferedReader scanner = ScannerManager.getScanner();
+
+    public Looper( ) {
+        Util.setMouseFactory(FactoryTemplates.createFastGamerMotionFactory());
+    }
 
     @Override
     public void onLoop() throws InterruptedException, IOException {
