@@ -5,6 +5,7 @@ accountswitcher\LoginTimer.class
 accountswitcher\LoginManager.class
 seagullscript\Looper.class
 shadowclicker\ScannerManager.class
+chinbot\Looper.class
 jnautils\WindowLocator.class
 shadowclicker\MyGDI32.class
 shadowclicker\PixelSearcher.class

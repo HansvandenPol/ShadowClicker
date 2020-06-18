@@ -2,7 +2,7 @@ package shadowclicker;
 
 import accountswitcher.AccountLoader;
 import accountswitcher.LoginManager;
-import birdhuntersensor.Looper;
+import chinbot.Looper;
 
 import java.io.BufferedReader;
 import java.io.IOException;
