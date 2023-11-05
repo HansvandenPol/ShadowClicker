@@ -9,11 +9,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.time.LocalDate;
 import java.util.Iterator;
 
 public class AccountLoader {
-    private final String DEFAULT_PATH = "C:\\Users\\hansv\\IdeaProjects\\ShadowClicker\\src\\main\\java\\accountswitcher\\accounts.JSON";
+    private final String DEFAULT_PATH = "accounts.JSON";
     private String pathToAccs = DEFAULT_PATH;
     private JSONParser jsonParser;
     private JSONObject jsonFile;
@@ -29,7 +31,9 @@ public class AccountLoader {
     public void readJson() {
         jsonParser = new JSONParser();
         try {
-            Object object = jsonParser.parse(new FileReader(pathToAccs));
+            URL u = this.getClass().getClassLoader().getResource(pathToAccs);
+
+            Object object = jsonParser.parse(new FileReader(u.toURI().getPath()));
             JSONObject jsonObject = (JSONObject) object;
 
             this.jsonFile = jsonObject;
@@ -39,6 +43,8 @@ public class AccountLoader {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
         }
     }
 

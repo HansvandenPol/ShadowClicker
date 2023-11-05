@@ -36,7 +36,7 @@ public class Looper extends Script {
         // gdiTest();s
         //robotTest();
 
-        //Script loadedScript = new WoodCutterTest();
+       // Script loadedScript = new WoodCutterTest();
 
 //        while(running)  {
 //            loadedScript.onLoop();
@@ -50,34 +50,6 @@ public class Looper extends Script {
         positions[0] = Integer.parseInt(coords.split(":")[0]);
         positions[1] = Integer.parseInt(coords.split(":")[1]);
         return positions;
-    }
-    public static void gdiTest(){
-        WinDef.HWND hWnd = User32.INSTANCE.FindWindow(null, "Naamloos - Kladblok");
-        WinDef.HDC hdcWindow = User32.INSTANCE.GetDC(null);
-        int col = 0xA0863E;
-        for(int i = 1 ; i < 200; i+=4) {
-            for (int j = 1; j< 200; j+=4){
-                int a = MyGDI32.INSTANCE.GetPixel(hdcWindow, i,j);
-                if(a == col){
-                    System.out.println("JA");
-                    return;
-                }
-
-            }
-        }
-    }
-
-    public static void robotTest(){
-        Color a = new Color(62,134,160);
-        for(int i = 1 ; i < 200; i+=4) {
-            for (int j = 1; j< 200; j+=4){
-                Color c = Util.getRobot().getPixelColor(i,j);
-                if(c.equals(a)){
-                    System.out.println("JA");
-                    return;
-                }
-            }
-        }
     }
 
     @Override

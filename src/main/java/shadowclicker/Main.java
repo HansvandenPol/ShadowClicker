@@ -20,19 +20,19 @@ public class Main{
 
     public static void main(String[] args) throws InterruptedException, IOException {
         script = new Looper();// From GUI soon...
-        ScannerManager sm = new ScannerManager();
-        script.setScannerManager(sm);
-        accountLoader.resetPlayedStatus();
-        loginManager.setActive(true); // From GUI soon...
+       // ScannerManager sm = new ScannerManager();
+      //  script.setScannerManager(sm);
+       // accountLoader.resetPlayedStatus();
+       // loginManager.setActive(true); // From GUI soon...
 
         while(running){
-            if(loginManager.shouldLogout()) {
-                loginManager.check();
-                // Clear inputStream
-               ScannerManager.clear();
-            }else{
+//            if(loginManager.shouldLogout()) {
+//                loginManager.check();
+//                // Clear inputStream
+//               ScannerManager.clear();
+//            }else{
                 script.onLoop();
-            }
+           // }
         }
 
     }
