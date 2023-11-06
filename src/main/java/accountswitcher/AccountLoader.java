@@ -9,26 +9,31 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.time.LocalDate;
 import java.util.Iterator;
 
-public class Account {
-    private final String DEFAULT_PATH = "C:\\Users\\hansv\\IdeaProjects\\ShadowClicker\\src\\main\\java\\accountswitcher\\accounts.JSON";
+public class AccountLoader {
+    private final String DEFAULT_PATH = "accounts.JSON";
     private String pathToAccs = DEFAULT_PATH;
     private JSONParser jsonParser;
     private JSONObject jsonFile;
     private LoginTimer loginTimer;
 
-    public Account() {
+    public AccountLoader() {
     }
 
-    public Account(String pathToAccs) {
+    public AccountLoader(String pathToAccs) {
         this.pathToAccs = pathToAccs;
     }
 
     public void readJson() {
         jsonParser = new JSONParser();
         try {
-            Object object = jsonParser.parse(new FileReader(pathToAccs));
+            URL u = this.getClass().getClassLoader().getResource(pathToAccs);
+
+            Object object = jsonParser.parse(new FileReader(u.toURI().getPath()));
             JSONObject jsonObject = (JSONObject) object;
 
             this.jsonFile = jsonObject;
@@ -38,6 +43,8 @@ public class Account {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
         }
     }
 
@@ -68,5 +75,33 @@ public class Account {
             }
         }
         return null;
+    }
+
+    public JSONObject getJsonFile(){
+        return jsonFile;
+    }
+
+    public void updatePlayDate(JSONObject account) {
+        account.put("last_played", LocalDate.now().toString());
+        updateJson(jsonFile);
+    }
+
+    public JSONArray getAccounts(){
+        if(jsonFile == null){
+            throw new RuntimeException("JSON file doesn't exist");
+        }
+        return (JSONArray) jsonFile.get("accounts");
+    }
+
+    public void resetPlayedStatus() {
+        readJson();
+        JSONArray accounts = getAccounts();
+        for(JSONObject account : (Iterable<JSONObject>) accounts) {
+            LocalDate date = LocalDate.parse((String)account.get("last_played"));
+            if(date.isBefore(LocalDate.now())) {
+                account.put("played",false);
+            }
+        }
+        updateJson(jsonFile);
     }
 }

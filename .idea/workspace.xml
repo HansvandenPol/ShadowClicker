@@ -8,74 +8,240 @@
       <artifact name="Shadowclicker" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d7c089-1a0d-4912-aafb-11c29cab7b8b" name="Default Changelist" comment="" />
+    <list default="true" id="1c62b483-66f9-43dc-a1fb-e393242bca25" name="Default Changelist" comment="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accountswitcher/accounts.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chinbot/Looper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chinbot/Looper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Controller2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/Controller2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowclicker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ShadowClicker-1.0-MASTER.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ShadowClicker-1.0-Seagull.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DashFX.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ShadowClicker.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/AccountLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/LoginTimer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accountswitcher/RobotTyper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/birdhuntersensor/Looper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chinbot/Looper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chinbot/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chinsFast/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eruro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fullpackstyling.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/Controller2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/DashFX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/highscores/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8-pause-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8-play-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8-stop-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8_Bill_50px_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8_Block_50px_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8_Broccoli_64px_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8_Car_52px_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8_Play_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8_Play_Button_50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/icons8_Shopping_Cart_50px_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jnautils/User32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jnautils/Win32WindowUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jnautils/WindowLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/seagullscript/Looper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/MyGDI32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/PixelSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/ScannerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Script.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shadowclicker/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/libs/hamcrest-core-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/libs/jna-5.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/libs/jna-platform-5.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/libs/json-simple-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/libs/junit-4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/libs/naturalmouse-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/libs/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AccountLoaderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginManagerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTimerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RobotTyperTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AccountLoaderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginManagerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTimerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotTyperTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AccountLoaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTimerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RobotTyperTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="birdFeature" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="workOffline" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1082" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectId" id="1bp7dkmllgaTE0Tbevg3unu4EGy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ShadowClicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowClicker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowClicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowClicker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowClicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowClicker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowClicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowClicker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowClicker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowClicker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="accountswitcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Backup pc 18-10-2020/Software/Java/ShadowClicker/src/main/ahk&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Backup pc 18-10-2020\Software\Java\ShadowClicker\src\main\ahk" />
+      <recent name="D:\Backup pc 18-10-2020\Software\Java\ShadowClicker" />
+      <recent name="D:\Backup pc 18-10-2020\Software\Java\ShadowClicker\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hansv\IdeaProjects\ShadowClicker\src\main\resources" />
+      <recent name="C:\Users\hansv\IdeaProjects\ShadowClicker\src\main\java\gui" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile" />
       <command value="mvn install" />
       <command value="mvn clean" />
+      <command value="mvn clean install -DskipTeests" />
+      <command value="mvn clean install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="accountswitcher.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.Main" />
       <module name="ShadowClicker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accountswitcher.*" />
+          <option name="PATTERN" value="gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jnautils.WindowLocator" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shadowclicker.Main" />
       <module name="ShadowClicker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jnautils.*" />
+          <option name="PATTERN" value="shadowclicker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,30 +262,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotTyperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="highscores.Tester" />
       <module name="ShadowClicker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTyperTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="highscores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotTyperTest.shouldLoginWithGoodCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginManagerTest.shouldThrowRunTimeWhenNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShadowClicker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTyperTest" />
-      <option name="METHOD_NAME" value="shouldLoginWithGoodCredentials" />
+      <option name="MAIN_CLASS_NAME" value="LoginManagerTest" />
+      <option name="METHOD_NAME" value="shouldThrowRunTimeWhenNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotTyperTest.typeAString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTimerTest.shouldCreateCorrectEndTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShadowClicker" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RobotTyperTest" />
-      <option name="METHOD_NAME" value="typeAString" />
+      <option name="MAIN_CLASS_NAME" value="LoginTimerTest" />
+      <option name="METHOD_NAME" value="shouldCreateCorrectEndTime" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,95 +297,142 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.RobotTyperTest.shouldLoginWithGoodCredentials" />
-        <item itemvalue="JUnit.RobotTyperTest.typeAString" />
-        <item itemvalue="JUnit.RobotTyperTest" />
-        <item itemvalue="Application.WindowLocator" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tester" />
+        <item itemvalue="JUnit.LoginTimerTest.shouldCreateCorrectEndTime" />
+        <item itemvalue="JUnit.LoginManagerTest.shouldThrowRunTimeWhenNotFound" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a768c268-f791-4d28-b0b5-385aefb83a23" name="Default Changelist" comment="" />
+      <changelist id="1c62b483-66f9-43dc-a1fb-e393242bca25" name="Default Changelist" comment="" />
       <created>1589317270084</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589317270084</updated>
+      <workItem from="1593370976024" duration="644000" />
+      <workItem from="1593956698089" duration="45000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
+      <created>1590695028294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590695028294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
+      <created>1590695072152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590695072152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
+      <created>1590953730583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590953730583</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml">
+      <created>1590953798046</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590953798046</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="442" y="141" key="#Project_Structure" timestamp="1589795518232">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="442" y="141" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589795518232" />
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589400818600" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1589836742703">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589799305173" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589836742703" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589400941457">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589400941457" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1589925793735">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="722" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1589925793735">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="722" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1589925793735">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="722" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589810511822" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1589925793735">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="722" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589810511823" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589925793735" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1589839723850">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589839723850" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1589839723850">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589839723850" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1589839723849">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589839723849" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1589839723850">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589839723850" />
-    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1589317529658">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589317529658" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1589835257943">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="352" y="74" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589795628001" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589835257943" />
-    <state x="209" y="108" key="new project wizard" timestamp="1589794605665">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589794605665" />
-    <state x="531" y="236" width="840" height="855" key="run.anything.popup" timestamp="1589925637040">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589795597882" />
-    <state x="531" y="236" width="840" height="855" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589925637040" />
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="689000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1082" height="1047" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46379647" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'develop' into fastFeature&#10;&#10;# Conflicts:&#10;#&#9;.gitignore.txt&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/java/shadowclicker/Main.java&#10;#&#9;src/main/java/shadowclicker/Util.java&#10;#&#9;target/ShadowClicker-1.0-FASTER.jar&#10;#&#9;target/ShadowClicker-1.0-MASTER.jar&#10;#&#9;target/ShadowClicker-1.0-SNAPSHOT.jar&#10;#&#9;target/classes/shadowclicker/Util.class&#10;#&#9;target/maven-archiver/pom.properties&#10;#&#9;target/surefire-reports/RobotTyperTest.txt&#10;#&#9;target/surefire-reports/TEST-RobotTyperTest.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accountswitcher/AccountLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

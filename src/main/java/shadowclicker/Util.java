@@ -15,10 +15,14 @@ public class Util {
     static {
         try {
             robot = new Robot();
-            mouse = FactoryTemplates.createFastGamerMotionFactory();
+            mouse = FactoryTemplates.createAverageComputerUserMotionFactory();
         } catch (AWTException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void setMouseFactory(MouseMotionFactory factory) {
+        mouse = factory;
     }
 
     public static boolean pixelSearch(int startX, int startY, int endX, int endY, int r, int g, int b, int speed) {
@@ -54,9 +58,15 @@ public class Util {
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
     }
 
-    public static void mouseClick(int xPos, int yPos) throws InterruptedException {
+    public static void mouseClick(int xPos, int yPos, boolean isFast) throws InterruptedException {
+        int speed = 200;
+        int offset = 100;
+        if(isFast) {
+            speed = 25;
+            offset = 10;
+        }
         mouse.move(xPos, yPos);
-        robot.delay((int)(Math.random() * 100) + 200);
+        robot.delay((int)(Math.random() * offset) + speed);
         click();
     }
 
@@ -71,6 +81,14 @@ public class Util {
         robot.delay(200);
 
         click();
+        robot.keyRelease(KeyEvent.VK_SHIFT);
+    }
+
+    public static void dropBirdStuff(int x, int y, int x2, int y2) throws InterruptedException {
+        robot.keyPress(KeyEvent.VK_SHIFT);
+        robot.delay((int) (Math.random()*20) + 50);
+        mouseClick(x, y, false);
+        mouseClick(x2,y2, false);
         robot.keyRelease(KeyEvent.VK_SHIFT);
     }
 
